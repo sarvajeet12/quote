@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #ecf0f1;
+}
+
+html {
+  font-size: 62.5%;
+}
+.container {
+  min-height: 100vh;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* ---------------------------- Style quote container ----------------------- */
+
+.quoteContainer {
+  width: 100%;
+  max-width: 50rem;
+  padding: 2rem;
+  border: .1rem solid #ccc;
+  border-radius: .5rem;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+}
+.quoteContainer h1{
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.quoteContainer p:nth-child(2){
+  font-size: 1.8rem;
+}
+
+.quoteContainer p:nth-child(3){
+  font-size: 1.5rem;
+}
+
+.quoteContainer button{
+  font-size: 1.3rem;
+  padding: 1rem 0;
+  border: .2rem solid transparent;
+  background-color: #34495e;
+  color: #fff;
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+}
+
+.quoteContainer button:hover{
+  border:.2rem solid #34495e;
+  background-color: #fff;
+  color: #34495e;
+}
